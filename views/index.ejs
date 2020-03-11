@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+
+  <style>
+    body {
+      Font-family: 'Aclonica';font-size: 22px;
+      }
+    h1 {text-align:center;}
+    h2 {text-align:center;}
+  </style>
+
+</head>
+
+<body>
+  <h1>
+    <% if(currentUser) { %>
+    Welcome <%=currentUser.username%>!!!
+    <% } else { %>
+    Welcome to the Pet Peeves Website!<br>
+    <h2>Please Sign In or Register to Enter Your Pet Peeve<br>
+        & View other Peeps Pet Peeves<br><br>
+        Enjoy!!!
+    </h2>
+    <% } %>
+  </h1>
+  <% if(currentUser) { %>
+  <main>
+    <!-- *** BONUS:
+    CONNECT TO A PIC OR GIF API SHOWING RANDOM PET PEEVE TAGGED FILES IN THE BACKGROUND OF THE INPUT SCREEN -->
+    
+    <!-- NEED TO FIX:
+      ADD A TEXT FORM FIELD TO ENTER THE USER PET PEEVE, NEEDS TO BE STORED IN THE SERVER -->
+    
+      Enter Your Pet Peeve <a href="/app">Here</a>
+
+    <!-- *** BONUS ADD A LIKE BUTTON THAT WILL COUNT THE NUMBER OF HITS, THEN SHOW THE TOP 10 *** -->
+
+    <!-- *** BONUS ADD A DIS-LIKE BUTTON THAT WILL COUNT THE NUMBER OF HITS, THEN SHOW THE TOP 10 *** -->
+
+  </main>
+  <% } %>
+  <nav>
+    <!-- NEED TO FIX: 
+      THIS UL SHOULD ONLY APPEAR ONCE, THAT IS ON THE MAIN PAGE. REMOVE THIS UL FROM THE PAGE WHERE THE MEMBER IS TO INPUT THEIR PET PEEVE. -->
+    <ul>
+      <li><a href="/sessions/new">Already a Member? Click Here to Sign In</a></li><br>
+      <li><a href="/users/new">Not a Member? Click Here to Register</a></li><br>
+      <% if(currentUser) { %>
+      <li>
+        <form action="/sessions?_method=DELETE" method="POST">
+          <input type="submit" value="Logout" />
+        </form>
+      </li>
+      <% } %>
+    </ul>
+  </nav>
+
+</body>
+
+</html>
