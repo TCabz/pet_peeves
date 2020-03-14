@@ -7,7 +7,7 @@ const methodOverride = require("method-override");
 app.use(express.urlencoded({ extended: false }));
 app.use(
   session({
-    secret: "feedmeseymour", //some random string
+    secret: "whatIsTheSecret", //some random string
     resave: false,
     saveUninitialized: false
   })

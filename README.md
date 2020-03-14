@@ -60,16 +60,19 @@ Created a full CRUD app using the technologies outlined below.
 * Unsolved Problems
     Where do I begin
 
-* My Stories & Notes to Self
-    Wednesday: Eventhough I had my project approved on Wednesday, Started my README.MD.
-    Thursday: Worked very long day @ my day job. Did not do any coding, basically ate & slept.
-    Friday: Updated the README.MD & started on the to look over the fruits code. Made a few changes to tailor the code to the Pet Peeves Website. Worked on it for a few hours. 
-    Saturday: Worked on the fruits code trying to make it work. Spent the class time making changes to the code. Made vast amounts of changes to the point where it broke & I couldn't figure it out, this approximately 3am Sunday, left it for Sunday.
-    Sunday: I heard from a teammate during the Saturday class that he used the code along from w12d3 as a basis. So scrapped the broken fruit files & started the code along.
-    Monday: Worked on code for a couple of hours, then needed to sleep.
-    Tuesday: Lost internet & hard line phone in my house. My cell reception is sporadic at best. But kept on coding without seaching the internet.
-    Wednesday: Call in sick to my day job, nobody repeat that please? Internet service was on by 9am.
-    
+*  **My Stories & Notes to Self
+*  **Wednesday: Eventhough I had my project approved on Wednesday, Started my README.MD.
+*  **Thursday: Worked very long day @ my day job. Did not do any coding, basically ate & slept.
+*  **Friday: Updated the README.MD & started on the to look over the fruits code. Made a few changes to tailor the code to the Pet Peeves Website. Worked on it for a few hours. 
+*  **Saturday: Worked on the fruits code trying to make it work. Spent the class time making changes to the code. Made vast amounts of changes to the point where it broke & I couldn't figure it out, this approximately 3am Sunday, left it for Sunday. 
+*  **Sunday: Had to go to work early in the morning. Started re-coding 10pm. I heard from a teammate during the Saturday class that he used the code along from w12d3 as a basis. So scrapped the broken fruit files & started the code along.
+*  **Monday: Worked on code for a couple of hours, then needed to sleep.
+*  **Tuesday: Lost internet & hard line phone in my house. My cell reception is sporadic at best. But kept on coding without seaching the internet. Tried to code without the internet, was very slow going.
+*  **Wednesday: Internet service was on by 9am. Started to re-code. Since, we had a repreive on completing the project, I went to work for a few hours to decrease my workload & manage the Jr. Estimator. Coded for a few hours, trying to get Heroku to work.
+*  **Thursday: Was at work at 4am. Outcomes tonight, felt very sleepy. Did not code.
+*  **Friday: At work again at 4am. Did not get home until 12am & started to code.
+*  **Saturday: It's 440am, class starts at 10am, I'm so tired, my eyes are shot, I'm giving up.
+
 *  **link to my hosted working app**  https://github.com/TCabz/pet_peeves.git
 
 * Included **sign up/log in** functionality, with **encrypted passwords & an authorization flow**
